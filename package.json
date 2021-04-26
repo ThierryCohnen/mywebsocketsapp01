@@ -1,0 +1,24 @@
+// {
+//   "name": "mywebsocketsapp01",
+//   "version": "1.0.0",
+//   "description": "",
+//   "main": "index.js",
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/ThierryCohnen/mywebsocketsapp01.git"
+//   },
+//   "author": "Thierry Cohnen",
+//   "license": "ISC",
+//   "bugs": {
+//     "url": "https://github.com/ThierryCohnen/mywebsocketsapp01/issues"
+//   },
+//   "homepage": "https://github.com/ThierryCohnen/mywebsocketsapp01#readme"
+// }
+{
+"scripts": {
+    "start": "node backend/app.js"
+  }
+}
