@@ -28,6 +28,7 @@ console.log(myNYTimesData)
 //   });
 //   // li.appendChild(document.createTextNode(myNYTimesData[0].abstract));
 // }
+console.log('app')
 function App() {
   const [response, setResponse] = useState([12, 19, 3, 5, 2, 3]);
   const [response01, setResponse01] = useState([]);
