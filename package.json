@@ -1,24 +1,23 @@
-// {
-//   "name": "mywebsocketsapp01",
-//   "version": "1.0.0",
-//   "description": "",
-//   "main": "index.js",
-//   "scripts": {
-//     "test": "echo \"Error: no test specified\" && exit 1"
-//   },
-//   "repository": {
-//     "type": "git",
-//     "url": "git+https://github.com/ThierryCohnen/mywebsocketsapp01.git"
-//   },
-//   "author": "Thierry Cohnen",
-//   "license": "ISC",
-//   "bugs": {
-//     "url": "https://github.com/ThierryCohnen/mywebsocketsapp01/issues"
-//   },
-//   "homepage": "https://github.com/ThierryCohnen/mywebsocketsapp01#readme"
-// }
+
 {
-"scripts": {
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "frontend/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/app.js"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.8"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
