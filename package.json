@@ -5,6 +5,7 @@
   "description": "This example is so cool.",
   "main": "frontend/src/index.js",
   "scripts": {
+    "heroku-postbuild": "cd frontend && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/app.js"
   },
